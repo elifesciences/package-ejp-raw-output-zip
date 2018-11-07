@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2d1 20151215//EN" "JATS-archivearticle1.dtd">
+<article article-type="research-article" dtd-version="1.2d1"
+    xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <front>
+        <journal-meta>
+            <journal-id journal-id-type="nlm-ta">eLife</journal-id>
+            <journal-id journal-id-type="publisher-id">eLife</journal-id>
+            <journal-title-group>
+                <journal-title>eLife</journal-title>
+            </journal-title-group>
+            <issn publication-format="electronic" pub-type="epub">2050-084X</issn>
+            <publisher>
+                <publisher-name>eLife Sciences Publications, Ltd</publisher-name>
+            </publisher>
+        </journal-meta>
+        <article-meta>
+            <article-id pub-id-type="publisher-id">37701</article-id>
+            <article-id pub-id-type="doi">https://doi.org/10.7554/eLife.37701</article-id>
+            <article-categories>
+                <subj-group subj-group-type="display-channel">
+                    <subject>Tools and Resources</subject>
+                </subj-group>
+                <subj-group subj-group-type="heading">
+                    <subject>Neuroscience</subject>
+                </subj-group>
+            </article-categories>
+            <title-group>
+                <article-title>The subiculum is a patchwork of discrete subregions</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author" corresp="yes" id="author-24343">
+                    <name>
+                        <surname>Cembrowski</surname>
+                        <given-names>Mark S</given-names>
+                    </name>
+                    <contrib-id contrib-id-type="orcid" authenticated="true"
+                        >http://orcid.org/0000-0001-8275-7362</contrib-id>
+                    <email>m.harrison@elifesciences.org</email>
+                    <xref ref-type="aff" rid="aff1">1</xref>
+                    <xref ref-type="other" rid="fund1"/>
+                    <xref ref-type="fn" rid="conf1"/>
+                    <xref ref-type="fn" rid="con1"/>
+                </contrib>
+            </contrib-group>
+            <aff id="aff1">
+                <label>1</label>
+                <institution>Janelia Research Campus, Howard Hughes Medical Institute</institution>
+                <addr-line>
+                    <named-content content-type="city">Ashburn</named-content>
+                </addr-line>
+                <country>United States</country>
+            </aff>
+            <contrib-group content-type="section">
+                <contrib contrib-type="senior_editor">
+                    <name>
+                        <surname>Frank</surname>
+                        <given-names>Michael j.</given-names>
+                    </name>
+                    <role>Senior Editor</role>
+                    <aff>
+                        <institution>Brown University</institution>
+                        <country>United States</country>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="editor" id="author-10">
+                    <name>
+                        <surname>Collings</surname>
+                        <given-names>Andy</given-names>
+                    </name>
+                    <role>Reviewing Editor</role>
+                    <aff>
+                        <institution>eLife Sciences</institution>
+                        <country>United Kingdom</country>
+                    </aff>
+                </contrib>
+            </contrib-group>
+            <elocation-id>e37701</elocation-id>
+            <history>
+                <date date-type="accepted" iso-8601-date="2018-10-01">
+                    <day>01</day>
+                    <month>10</month>
+                    <year>2018</year>
+                </date>
+                <date date-type="received" iso-8601-date="2018-06-28">
+                    <day>28</day>
+                    <month>6</month>
+                    <year>2018</year>
+                </date>
+            </history>
+            <pub-history>
+                <event>
+                    <event-desc>This article was ogininally published as a <ext-link
+                            ext-link-type="uri"
+                            xlink:href="https://www.biorxiv.org/content/early/2017/03/24/118356"
+                            >preprint on Biorxiv</ext-link></event-desc>
+                    <date iso-8601-date="2016-03-01">
+                        <day>24</day>
+                        <month>03</month>
+                        <year>2017</year>
+                    </date>
+                </event>
+            </pub-history>
+            <permissions>
+                <copyright-statement>&#x00A9; 2018, Gluth et al</copyright-statement>
+                <copyright-year>2018</copyright-year>
+                <copyright-holder>Gluth et al</copyright-holder>
+                <ali:free_to_read/>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <ali:license_ref>http://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                    <license-p>This article is distributed under the terms of the <ext-link
+                            ext-link-type="uri"
+                            xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative
+                            Commons Attribution License</ext-link>, which permits unrestricted use
+                        and redistribution provided that the original author and source are
+                        credited.</license-p>
+                </license>
+            </permissions>
+            <related-article id="ra1" related-article-type="research-article"
+                xlink:href="26-03-2018-RA-eLife-37001"/>
+            <!-- Graham: how about referring to the article file as a self-uri? However, what to do with Tex output that has multiple 
+                files and also when we get more than one file listed as the main article?
+            Another question - does the vednor need the PDF that is built by the submission system?-->
+            <abstract>
+                <p>Humans and other animals often violate economic principles when choosing between
+                    multiple alternatives, but the underlying neurocognitive mechanisms remain
+                    elusive. A robust finding is that adding a third option can alter the relative
+                    preference for the original alternatives, but studies disagree on whether the
+                    third option&apos;s value decreases or increases accuracy. To shed light on this
+                    controversy, we used and extended the paradigm of one study reporting a positive
+                    effect. However, our four experiments with 147 human participants and a
+                    reanalysis of the original data revealed that the positive effect is neither
+                    replicable nor reproducible. In contrast, our behavioral and eye-tracking
+                    results are best explained by assuming that the third option&apos;s value
+                    captures attention and thereby impedes accuracy. We propose a computational
+                    model that accounts for the complex interplay of value, attention, and choice.
+                    Our theory explains how choice sets and environments influence the
+                    neurocognitive processes of multi-alternative decision making.</p>
+            </abstract>
+            <kwd-group kwd-group-type="research-organism">
+                <title>Research organism</title>
+                <kwd>Mouse</kwd>
+            </kwd-group>
+            <kwd-group kwd-group-type="author-keywords">
+                <title>Author keywords</title>
+                <kwd>RNA-seq</kwd>
+                <kwd>hippocampus</kwd>
+                <kwd>subiculum</kwd>
+                <kwd>transcriptome</kwd>
+                <kwd>pyramidal cell</kwd>
+                <kwd>cell type</kwd>
+            </kwd-group>
+            <funding-group>
+                <award-group id="fund1">
+                    <funding-source>
+                        <institution-wrap>
+                            <institution-id institution-id-type="FundRef"
+                                >https://dx.doi.org/10.13039/100000011</institution-id>
+                            <institution>Howard Hughes Medical Institute</institution>
+                        </institution-wrap>
+                    </funding-source>
+                    <principal-award-recipient>
+                        <name>
+                            <surname>Cembrowski</surname>
+                            <given-names>Mark S</given-names>
+                        </name>
+                    </principal-award-recipient>
+                </award-group>
+                <funding-statement>The funders had no role in study design, data collection and
+                    interpretation, or the decision to submit the work for
+                    publication.</funding-statement>
+            </funding-group>
+            <custom-meta-group>
+                <custom-meta specific-use="meta-only">
+                    <meta-name>Author impact statement</meta-name>
+                    <meta-value>Pyramidal cells of the subiculum, a major output cell type of the
+                        hippocampus, can be deconstructed into distinct subtypes that exhibit a
+                        patchwork-like organization in space.</meta-value>
+                </custom-meta>
+                <!-- Graham: production notes are not in the DTD, this is a potential way to handle them? Or seperate manifest 
+                    file for non-publishing material-->
+                <custom-meta specific-use="processing-instructions">
+                    <meta-name>Production notes</meta-name>
+                    <meta-value>FAO Production – Please ensure OSF link (https://osf.io/8r4fh/) is
+                        working before VOR publication. Statement should also be updated so it just
+                        reads "Behavioral and eye-tracking data have been deposited on the Open
+                        Science Framework at https://osf.io/8r4fh/" FAO Staff: In event of
+                        acceptance, please inform Wei Mun - Annotation – No need to HOLD in the
+                        event of publication for this note. Wei Mun to alert the original authors
+                        upon acceptance, so they can consider posting an annotation in response.FAO
+                        Tara/Production – Data availability statement needs to be updated at revised
+                        (see Transparent reporting form)</meta-value>
+                </custom-meta>
+                <custom-meta>
+                    <meta-name>Copy editing requirement</meta-name>
+                    <meta-value>1</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+
+        </article-meta>
+    </front>
+    <body>
+        <fig-group>
+            <!-- Graham: removed mime types for fiures as production vendor is required to
+                normalise them-->
+            <fig id="fig1" position="float">
+                <label>Figure 1.</label>
+                <graphic xlink:href="elife-00666-fig1"/>
+            </fig>
+            <fig id="fig1s1" position="float" specific-use="child-fig">
+                <label>Figure 2—figure supplement 1.</label>
+                <p>
+                    <supplementary-material id="fig3sdata1">
+                        <label>Figure 3—figure supplement 1—source data 1.</label>
+                        <media xlink:href="elife-00666-fig3-figsupp1-data1.xlsx"/>
+                    </supplementary-material>
+                </p>
+                <graphic xlink:href="elife-00666-fig2-figsupp1"/>
+            </fig>
+        </fig-group>
+        <media id="video1" xlink:href="elife-00666-video2.gif">
+            <label>Video 1.</label>
+        </media>
+
+
+    </body>
+    <back>
+        <sec sec-type="supplementary-material">
+            <!-- Graham: did not removed mime types for fiures as production vendor is not meant to touch these-->
+            <title>Additional files</title>
+            <supplementary-material id="supp1">
+                <label>Supplementary file 1.</label>
+                <media mimetype="application" mime-subtype="csv" xlink:href="elife-00666-supp1.csv"
+                />
+            </supplementary-material>
+            <supplementary-material id="sdata1">
+                <label>Source data 1.</label>
+                <media mimetype="application" mime-subtype="xlsx"
+                    xlink:href="elife-00666-data1.xlsx"/>
+            </supplementary-material>
+            <supplementary-material id="scode1">
+                <label>Source code 1.</label>
+                <media mimetype="application" mime-subtype="xml" xlink:href="elife-00666-code1.xml"
+                />
+            </supplementary-material>
+            <supplementary-material id="repstand1">
+                <!-- Question outstanding: should the lable be Reporting standard and the caption be Consort checklist and flow diagram-->
+                <label>Consort checklist and flow diagram.</label>
+                <media mimetype="application" mime-subtype="pdf"
+                    xlink:href="elife-00666-repstand1.pdf"/>
+            </supplementary-material>
+            <supplementary-material id="transrepform">
+                <label>Transparent reporting form.</label>
+                <media mimetype="application" mime-subtype="pdf"
+                    xlink:href="elife-00666-transrepform.pdf"/>
+            </supplementary-material>
+            <!-- Question is this a good way to deliver the striking image or should we not put it in the JATS XML? 
+                Wondering whether we should have a seperate XML manifest for content that does not get published in the main article-->
+            <supplementary-material id="striking_image">
+                <label>Neighborhood-dependent amplifications appearing over time</label>
+                <caption>
+                    <title>Bacterial colonies with a fluorescent amplification reporter appearing on
+                        selective plates over three days (left to right). Bacteria can grow either
+                        due to pre-plating single-step mutations that activate a drug resistance
+                        gene (dark colonies), or due to amplifications of the gene (bright
+                        colonies), which appear over time. Amplifications, as well as some other
+                        mutation types, depend on genes in the chromosomal neighborhood of the
+                        resistance gene.</title>
+                </caption>
+                <media xlink:href="elife-00666-strikingimage.pdf"/>
+            </supplementary-material>
+            <!-- Question is this a good way to deliver the main article or should we not put it in the JATS XML? 
+                what happens when more than one file, or for LaTex?-->
+            <supplementary-material id="main_article">
+                <label>Main article file 1</label>
+                <media xlink:href="elife-00666"/>
+            </supplementary-material>
+        </sec>
+        <sec sec-type="data-availability" id="s7">
+            <title>Data availability</title>
+            <p>A published ChIP dataset was used in this study: Webber JL, Zhang J, Cote L,
+                Vivekanand P, Ni X, Zhou J, N&#x00E8;gre N, Carthew RW, White KP, Rebay I. Genetics.
+                2013 .The relationship between long-range chromatin occupancy and polymerization of
+                the Drosophila ETS family transcriptional repressor Yan. Raw data for this published
+                study are available as a GEO dataset (Series: GSE34038 and GSE34040). All other data
+                analysed during this study are included in the manuscript and supporting files.
+                Source data files have been provided for Figures 1 and 3.</p>
+            <p>The following dataset was generated:</p>
+            <p>
+                <element-citation publication-type="data" specific-use="isSupplementedBy"
+                    id="dataset1">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Düsterwald</surname>
+                            <given-names>KM</given-names>
+                        </name>
+                        <name>
+                            <surname>Currin</surname>
+                            <given-names>CB</given-names>
+                        </name>
+                        <name>
+                            <surname>Burman</surname>
+                            <given-names>RJ</given-names>
+                        </name>
+                        <name>
+                            <surname>Akerman</surname>
+                            <given-names>CJ</given-names>
+                        </name>
+                        <name>
+                            <surname>Kay</surname>
+                            <given-names>AR</given-names>
+                        </name>
+                        <name>
+                            <surname>Raimondo</surname>
+                            <given-names>JV</given-names>
+                        </name>
+                    </person-group>
+                    <year iso-8601-date="2018">2018</year>
+                    <data-title>Data from: Biophysical models reveal the relative importance of
+                        transporter proteins and impermeant anions in chloride
+                        homeostasis</data-title>
+                    <source>Dryad Digital Repository</source>
+                    <pub-id assigning-authority="Dryad" pub-id-type="doi"
+                        >10.5061/dryad.kj1f3v4</pub-id>
+                </element-citation>
+            </p>
+            <p>The following previously published datasets were used:</p>
+            <p>
+                <element-citation publication-type="data" specific-use="references" id="dataset2">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Rau</surname>
+                            <given-names>CD</given-names>
+                        </name>
+                        <name>
+                            <surname>Wang</surname>
+                            <given-names>J</given-names>
+                        </name>
+                        <name>
+                            <surname>Wang</surname>
+                            <given-names>Y</given-names>
+                        </name>
+                        <name>
+                            <surname>Lusis</surname>
+                            <given-names>AJ</given-names>
+                        </name>
+                    </person-group>
+                    <year iso-8601-date="2013">2013</year>
+                    <data-title>Transcriptomes of the hybrid mouse diversity panel subjected to
+                        Isoproterenol challenge</data-title>
+                    <source>NCBI Gene Expression Omnibus</source>
+                    <pub-id assigning-authority="NCBI" pub-id-type="accession"
+                        xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48760"
+                        >GSE48760</pub-id>
+                </element-citation>
+            </p>
+            <p>
+                <element-citation publication-type="data" specific-use="references" id="dataset3">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Garcia</surname>
+                            <given-names>Miguel A</given-names>
+                        </name>
+                    </person-group>
+                    <year iso-8601-date="2018">2018</year>
+                    <data-title>Shear Manuscript</data-title>
+                    <source>Open Science Framework</source>
+                    <pub-id assigning-authority="other" pub-id-type="archive"
+                        xlink:href="https://osf.io/kvu5j/">kvu5j</pub-id>
+                </element-citation>
+            </p>
+        </sec>
+        <fn-group content-type="competing-interest">
+            <title>Competing interests</title>
+            <fn fn-type="COI-statement" id="conf1">
+                <p>No competing interests declared</p>
+            </fn>
+        </fn-group>
+        <fn-group content-type="author-contribution">
+            <title>Author contributions</title>
+            <fn fn-type="con" id="con1">
+                <p>Conceptualization, Data curation, Software, Formal analysis, Validation,
+                    Investigation, Visualization, Methodology, Writing original draft, Writing
+                    review and editing</p>
+            </fn>
+        </fn-group>
+        <fn-group content-type="ethics-information">
+            <title>Ethics</title>
+            <fn fn-type="other">
+                <p>Human subjects: All participants gave written informed consent, and the study was
+                    approved by the Institutional Review Board of the Department of Psychology at
+                    the University of Basel. All experiments were performed in accordance with the
+                    relevant guidelines and regulations.</p>
+            </fn>
+            <fn fn-type="other">
+                <p>Animal subjects: If there were animal subjects involved in the study the approval
+                    number for the research along with protocol approval would be listed here.</p>
+            </fn>
+            <!-- Graham: Clinical trial bit still requires work:<related-object source-type="clinical-trials-registry" 
+                source-id="10.18810/isrctn" source-id-type="crossref-doi" document-id="10.1186/ISRCTN98371961" 
+                document-id-type="doi" xlink:href="https://www.isrctn.com/ISRCTN98371961">Clinical Trial Registration: 
+                This study is registered with ISRCTN as ISRCTN98371961.</related-object>-->
+            <fn fn-type="other">
+                <p>If this article was part of a clinical trial the Clinical trial registry and ID
+                    would be listed here, for example:</p>
+            </fn>
+        </fn-group>
+    </back>
+    <sub-article article-type="decision-letter">
+        <front-stub>
+            <title-group>
+                <article-title>Decision letter</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="editor">
+                    <name>
+                        <surname>Collings</surname>
+                        <given-names>Andy</given-names>
+                    </name>
+                    <role>Reviewing Editor</role>
+                    <aff>
+                        <institution>eLife Sciences</institution>
+                        <country>United Kingdom</country>
+                    </aff>
+                </contrib>
+            </contrib-group>
+            <contrib-group>
+                <contrib contrib-type="reviewer">
+                    <name>
+                        <surname>Darian-Smith</surname>
+                        <given-names>Corinna </given-names>
+                    </name>
+                    <role>Reviewer</role>
+                    <aff>
+                        <institution>Stanford University</institution>
+                        <country>United States</country>
+                    </aff>
+                </contrib>
+            </contrib-group>
+        </front-stub>
+    </sub-article>
+</article>
