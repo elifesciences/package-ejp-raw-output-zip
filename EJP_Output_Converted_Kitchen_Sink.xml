@@ -40,6 +40,7 @@
                     <email>m.harrison@elifesciences.org</email>
                     <xref ref-type="aff" rid="aff1">1</xref>
                     <xref ref-type="other" rid="fund1"/>
+                    <!-- Contribution and Conflict of interest tagging will change based on JATS4R recommendations -->
                     <xref ref-type="fn" rid="conf1"/>
                     <xref ref-type="fn" rid="con1"/>
                 </contrib>
